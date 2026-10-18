@@ -30,8 +30,8 @@ def run_reaction_window(reaction_queue=None, stop_event=None):
 
     reaction = Reaction(
         screen=screen,
-        image_path="C:\\Users\\W.Moazzam's laptop\\OneDrive\\Documents\\ALLthePrograms\\Controller\\reactor\\assets\\OIP (1).png",
-        sound_path="C:\\Users\\W.Moazzam's laptop\\Downloads\\WhatsApp Audio 2026-10-11 at 10.06.37 PM.mpeg.wav",
+        image_path="C:\\user\\img_path",
+        sound_path="C:\\Users\\sound_path",
         duration_ms=10000
     )
 
