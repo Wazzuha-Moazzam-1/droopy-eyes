@@ -12,8 +12,7 @@ class Reaction:
         self.duration_ms = duration_ms
 
         # Load the visual once, not every time the reaction starts.
-        original_image = pygame.image.load(image_path).convert_alpha() #" C:\Users\W.Moazzam's laptop\OneDrive\Documents\ALLthePrograms\.venv\controllers\reactor\assets\OIP (1).webp"
-        self.image = pygame.transform.smoothscale(
+        original_image = pygame.image.load(image_path).convert_alpha() 
             original_image,
             (180, 180)
         )
