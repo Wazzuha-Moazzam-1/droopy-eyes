@@ -1,1 +1,2 @@
-# droopy-eyes
+# Controller
+checks if youre slacking off or not
